@@ -1,0 +1,11 @@
+{
+  "name": "ferryboat",
+  "version": "1.0.12",
+  "description": "OK",
+  "main": "./lib/node-ferryboat.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "beacon-es6-driver": "^0.6.4",
+    "node-grok": "^2.0.3"
+  }
+}

@@ -1,0 +1,39 @@
+Mar  9 00:29:39 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.quicklook[62964]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Mar  9 00:33:00 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Mar  9 00:33:50 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.quicklook[62999]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Mar  9 01:08:43 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.google.keystone.daemon[63235]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.google.Keystone.Daemon.Administration
+Mar  9 01:08:43 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.google.keystone.daemon[63235]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.google.Keystone.Daemon.UpdateEngine
+Mar  9 01:11:18 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Mar  9 01:11:19 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.quicklook[63257]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Mar  9 01:11:20 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.63254): Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/Frameworks/IDEKit.framework/Versions/A/XPCServices/IDETouchBarSimulatorService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Mar  9 01:11:20 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.63254): Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/XPCServices/RootDebuggingXPCService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Mar  9 01:19:41 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.quicklook[63313]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Mar  9 01:23:07 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Mar  9 02:22:01 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Mar  9 02:22:17 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.quicklook[63748]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Mar  9 03:25:10 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Mar  9 03:32:31 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.quicklook[64227]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Mar  9 03:35:00 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.bsd.dirhelper[64244]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.bsd.dirhelper
+Mar  9 03:36:42 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.quicklook[64296]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Mar  9 04:24:22 MacBook-Pro-4 iTunesHelper[1222]: Entered:_AMMuxedDeviceDisconnected, mux-device:2315
+Mar  9 04:24:22 MacBook-Pro-4 iTunesHelper[1222]: Entered:__thr_AMMuxedDeviceDisconnected, mux-device:2315
+Mar  9 04:24:22 MacBook-Pro-4 iTunesHelper[1222]: tid:9907 - BootedOS mode device disconnected
+Mar  9 04:24:22 MacBook-Pro-4 MobileDeviceUpdater[14662]: Entered:_AMMuxedDeviceDisconnected, mux-device:2315
+Mar  9 04:24:22 MacBook-Pro-4 MobileDeviceUpdater[14662]: Entered:__thr_AMMuxedDeviceDisconnected, mux-device:2315
+Mar  9 04:24:22 MacBook-Pro-4 MobileDeviceUpdater[14662]: tid:aceb - BootedOS mode device disconnected
+Mar  9 04:24:22 MacBook-Pro-4 iTunesHelper[1222]: Failed to connect to device for lockdown query
+Mar  9 04:24:22 MacBook-Pro-4 iTunesHelper[1222]: tid:6c1b - Failed to extract ChipID from booted device
+Mar  9 04:24:22 MacBook-Pro-4 iTunesHelper[1222]: Failed to connect to device for lockdown query
+Mar  9 04:24:22 MacBook-Pro-4 iTunesHelper[1222]: tid:6c1b - Failed to extract BoardID from booted device
+Mar  9 04:24:28 MacBook-Pro-4 fud[64629]: objc[64629]: Class MobileAssetUpdater is implemented in both /System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/Support/fud (0x1059b7fd0) and /System/Library/AccessoryUpdaterBundles/ApplePowerAccessoryUpdater.bundle/Contents/MacOS/ApplePowerAccessoryUpdater (0x108458a68). One of the two will be used. Which one is undefined.
+Mar  9 04:24:35 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Mar  9 07:24:50 MacBook-Pro-4 timed[105]: settimeofday({0x5c83dac2,0x27f35}) == 0
+Mar  9 11:32:50 MacBook-Pro-4 timed[105]: settimeofday({0x5c8414e2,0x69066}) == 0
+Mar  9 11:33:21 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.quicklook[64666]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Mar  9 11:33:49 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.appkit.xpc.openAndSavePanelService[15846]): Service did not exit 5 seconds after SIGTERM. Sending SIGKILL.
+Mar  9 11:34:38 MacBook-Pro-4 netbiosd[64680]: DEPRECATED USE in libdispatch client: Setting timer interval to 0 requests a 1ns timer, did you mean FOREVER (a one-shot timer)?
+Mar  9 11:39:04 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Mar  9 11:43:01 MacBook-Pro-4 netbiosd[64782]: DEPRECATED USE in libdispatch client: Setting timer interval to 0 requests a 1ns timer, did you mean FOREVER (a one-shot timer)?
+Mar  9 12:17:14 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.google.keystone.daemon[65181]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.google.Keystone.Daemon.Administration
+Mar  9 12:17:14 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.google.keystone.daemon[65181]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.google.Keystone.Daemon.UpdateEngine
+Mar  9 12:17:16 MacBook-Pro-4 com.apple.xpc.launchd[1] (com.google.keystone.system.agent[65176]): Service exited with abnormal code: 1
