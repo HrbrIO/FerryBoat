@@ -2,10 +2,28 @@
   "name": "ferryboat",
   "version": "1.0.22",
   "description": "OK",
-  "main": "./lib/node-ferryboat.js",
   "license": "Apache-2.0",
+  "homepage": "https://github.com/HrbrIO/ferryboat#README.md",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/HrbrIO/ferryboat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HrbrIO/ferryboat/issues"
+  },
+  "author": {
+    "name": "Scott Matheson",
+    "email": "scott@hrbr.io",
+    "url": "https://hrbr.io/"
+  },
+  "main": "./lib/node-ferryboat.js",
   "dependencies": {
     "beacon-es6-driver": "^0.6.4",
     "node-grok": "^2.0.3"
-  }
+  },
+  "keywords": [
+    "beacon",
+    "ferryboat",
+    "grok"
+  ]
 }
