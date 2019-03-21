@@ -1,13 +1,5 @@
 # ferryboat
 
-Explain what Grok is.
-
-Give them better links to grok subs.
-
-Provide a sample log file snippet along with filter describing the log.
-
-Tell them to 
-
 Here is a sample javascript implementation:
 ```javascript
 const ferryboat = require('ferryboat');
