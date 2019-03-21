@@ -149,6 +149,8 @@ typings/
 .idea/modules.xml
 .idea/*.iml
 .idea/modules
+.idea/*.xml
+.idea/codeStyles/*.xml
 
 # CMake
 cmake-build-*/

@@ -1,8 +1,8 @@
-# ferryboat
+# hrbr-ferryboat
 
 Here is a sample javascript implementation:
 ```javascript
-const ferryboat = require('ferryboat');
+const ferryboat = require('hrbr-ferryboat');
 
 const grokPattern = "%{COMMONAPACHELOG}";
 const beaconOpts = {
@@ -48,7 +48,7 @@ To try the sample code do:
 $ mkdir myfirstbeacon
 $ cd myfirstbeacon
 $ npm init -y
-$ npm install -S ferryboat
+$ npm install -S hrbr-ferryboat
 $ # Save the above code as index.js
 $ # Be sure to replace apiKey, appVersionId, beaconVersionId in your code.
 $ npm update

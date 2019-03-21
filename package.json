@@ -1,5 +1,5 @@
 {
-  "name": "ferryboat",
+  "name": "hrbr-ferryboat",
   "version": "0.1.1",
   "description": "Parses lines from log files, converts each line to a beacon message and sends the beacon message to hrbr.io.",
   "license": "Apache-2.0",
@@ -23,7 +23,7 @@
   },
   "keywords": [
     "beacon",
-    "ferryboat",
+    "hrbr-ferryboat",
     "grok"
   ]
 }
