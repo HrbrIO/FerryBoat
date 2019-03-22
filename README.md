@@ -1,6 +1,6 @@
 # hrbr-ferryboat
 
-Parses lines from log files, converts each line to a beacon message, and then sends the beacon messages to (https://hrbr.io).
+Parses lines from log files, converts each line to a beacon message, sends a beacon message to (https://hrbr.io).
 
 If you are looking for a working example then you should check out
 the [ferryboat-cli](https://github.com/HrbrIO/ferryboat-cli#README.md) which is a command
