@@ -1,5 +1,12 @@
 # hrbr-ferryboat
 
+Parses lines from log files, converts each line to a beacon message, and then sends the beacon messages to (https://hrbr.io).
+
+If you are looking for a working example then you should check out
+the [ferryboat-cli](https://github.com/HrbrIO/ferryboat-cli#README.md) which is a command
+line interface for sending output from log files to hrbr.io using this module.
+
+## Sample Implementation
 Here is a sample javascript implementation:
 ```javascript
 const ferryboat = require('hrbr-ferryboat');
@@ -35,7 +42,6 @@ const processLines = async () => {
 
     for await (const line of lines) {
         const res = await ferryboat.processLine(line, messageType);
-        //console.log(res);
     }
 
 };
@@ -54,3 +60,12 @@ $ # Be sure to replace apiKey, appVersionId, beaconVersionId in your code.
 $ npm update
 $ node index.js
 ```
+
+## API Description
+
+- `initializeGrok(beaconOpts, grokPattern, grokModuleDir2, grokModuleDir1)` : Initialize for grok with `grokPattern`. Optionally specify additional grok module directories.
+- `initializeRegEx(beaconOpts, regEx)` - Initialize for regEx with RegExp `regEx`.
+- `processLine(line, messageType)` -  - Send a beacon using the given line and attempting to match the initialized grok or regex pattern.
+- `processEOF(messageType)` - Send a beacon to indicate a file has closed.
+- `requestsPending()` - Returns `true|false` if beacon requests are currently in flight.
+- `requestsPendingCount()` - Returns the `number` of beacon requests currently in flight.
